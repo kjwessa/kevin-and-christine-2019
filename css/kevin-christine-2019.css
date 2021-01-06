@@ -1501,7 +1501,7 @@ body {
   }
 
   .massive__section {
-    height: 90vh;
+    height: auto;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -1578,12 +1578,22 @@ body {
     grid-row-gap: 5px;
   }
 
+  .registry__block {
+    height: auto;
+  }
+
   .registry__paragraph {
     margin-bottom: 30px;
   }
 
+  .hero__section {
+    min-height: auto;
+  }
+
   .guests__section {
-    height: 70vh;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .text-block-22 {
@@ -1625,7 +1635,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding: 10px 40px;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .mobile__menu {
@@ -1636,6 +1646,8 @@ body {
 
   .mobile__menuitem {
     display: block;
+    max-width: 100%;
+    min-width: 100%;
     margin-right: 0px;
     margin-left: 0px;
     padding-top: 10px;
@@ -1681,6 +1693,12 @@ body {
 
   .section__quote {
     height: 75vh;
+  }
+
+  .section__quote.is--small {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .countdown__content-wrap {
@@ -2037,7 +2055,7 @@ body {
   }
 
   .guests__section {
-    height: 80vh;
+    height: auto;
   }
 
   .paragraph {
