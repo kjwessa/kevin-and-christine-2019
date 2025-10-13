@@ -1,0 +1,17 @@
+# Exclude version control
+.git
+.gitignore
+
+# Exclude Vercel config (no longer needed)
+vercel.json
+
+# Exclude documentation
+README.md
+
+# Exclude Wrangler config (it's not an asset)
+wrangler.jsonc
+wrangler.json
+wrangler.toml
+
+# Exclude system files
+.DS_Store
