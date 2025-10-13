@@ -1,20 +1,20 @@
 {
-  // Name of your Worker - you can keep it the same as your site name
-  "name": "kevin-and-christine-2019",
+	// Name of your Worker - you can keep it the same as your site name
+	"name": "kevin-and-christine-2019",
 
-  // Compatibility date - set to current date
-  "compatibility_date": "2025-04-01",
+	// Compatibility date - set to current date
+	"compatibility_date": "2025-04-01",
 
-  // Static assets configuration
-  "assets": {
-    // Root directory contains all your static files
-    "directory": ".",
+	// Static assets configuration
+	"assets": {
+		// Root directory contains all your static files
+		"directory": ".",
 
-    // Handle HTML files for clean URLs (removes .html extension)
-    // This gives you /contact-us instead of /contact-us.html
-    "html_handling": "auto-trailing-slash"
-  },
+		// Handle HTML files for clean URLs (removes .html extension)
+		// This gives you /contact-us instead of /contact-us.html
+		"html_handling": "auto-trailing-slash"
+	},
 
-  // Enable workers.dev subdomain for preview
-  "workers_dev": true
+	// Enable workers.dev subdomain for preview
+	"workers_dev": true
 }

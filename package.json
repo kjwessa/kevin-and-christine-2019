@@ -1,24 +1,24 @@
 {
-  "name": "kevin-and-christine-2019",
-  "version": "1.0.0",
-  "description": "## Overview This repository contains the static website celebrating Kevin and Christine's 2019 wedding. The project began as a Webflow design that was exported and committed to Git for long-term safekeeping and ease of hosting. Every HTML page, stylesheet, script, image, and font that Webflow produced is stored in the repo so the site can be redeployed exactly as it originally appeared. Because nothing in the build relies on server-side rendering, the project can be hosted on any static provider or served locally without additional tooling.",
-  "main": "index.js",
-  "scripts": {
-    "check": "biome check .",
-    "fix": "biome check --write ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kjwessa/kevin-and-christine-2019.git"
-  },
-  "keywords": [],
-  "author": "Kevin Wessa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kjwessa/kevin-and-christine-2019/issues"
-  },
-  "homepage": "https://github.com/kjwessa/kevin-and-christine-2019#readme",
-  "devDependencies": {
-    "@biomejs/biome": "2.2.6"
-  }
+	"name": "kevin-and-christine-2019",
+	"version": "1.0.0",
+	"description": "## Overview This repository contains the static website celebrating Kevin and Christine's 2019 wedding. The project began as a Webflow design that was exported and committed to Git for long-term safekeeping and ease of hosting. Every HTML page, stylesheet, script, image, and font that Webflow produced is stored in the repo so the site can be redeployed exactly as it originally appeared. Because nothing in the build relies on server-side rendering, the project can be hosted on any static provider or served locally without additional tooling.",
+	"main": "index.js",
+	"scripts": {
+		"check": "biome check .",
+		"fix": "biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kjwessa/kevin-and-christine-2019.git"
+	},
+	"keywords": [],
+	"author": "Kevin Wessa",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kjwessa/kevin-and-christine-2019/issues"
+	},
+	"homepage": "https://github.com/kjwessa/kevin-and-christine-2019#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.6"
+	}
 }
