@@ -2,6 +2,16 @@
 .git
 .gitignore
 
+# Exclude dependencies and build outputs
+node_modules
+dist
+
+# Exclude package manager files
+package.json
+package-lock.json
+pnpm-lock.yaml
+biome.json
+
 # Exclude Vercel config (no longer needed)
 vercel.json
 
