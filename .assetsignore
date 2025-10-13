@@ -25,3 +25,6 @@ wrangler.toml
 
 # Exclude system files
 .DS_Store
+
+# Exclude Claude Code
+.claude

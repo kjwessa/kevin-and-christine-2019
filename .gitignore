@@ -8,3 +8,6 @@ dist/
 
 # Package manager files
 pnpm-lock.yaml
+
+# Claude Code
+.claude
