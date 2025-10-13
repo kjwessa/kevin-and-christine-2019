@@ -4,6 +4,8 @@
 
 	// Compatibility date - set to current date
 	"compatibility_date": "2025-04-01",
+	// Enable workers.dev subdomain for preview
+	"workers_dev": true,
 
 	// Static assets configuration
 	"assets": {
@@ -13,8 +15,5 @@
 		// Handle HTML files for clean URLs (removes .html extension)
 		// This gives you /contact-us instead of /contact-us.html
 		"html_handling": "auto-trailing-slash"
-	},
-
-	// Enable workers.dev subdomain for preview
-	"workers_dev": true
+	}
 }
